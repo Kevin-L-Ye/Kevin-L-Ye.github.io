@@ -1,0 +1,23 @@
+﻿body {
+    background-image: url("cork-wallet.png");
+}
+nav{
+    text-align: right;
+
+}
+
+* {
+    border: 1px solid black;
+}
+
+#Summary_and_image{
+    display: flex;
+}
+#Summary{
+    width: 66%;
+}
+#Personal_Image {
+    padding: 2px;
+    width: 33%;
+    word-wrap: break-word;
+}
