@@ -1,5 +1,5 @@
 ﻿body {
-    background-image: url("cork-wallet.png");
+    /* background-image: url("cork-wallet.png"); */
 }
 nav{
     text-align: right;
@@ -20,4 +20,19 @@ nav{
     padding: 2px;
     width: 33%;
     word-wrap: break-word;
+}
+#Header{
+    display: inline-block;
+    width: 100%;
+    background-color: lightgrey;
+    height: 100px;
+}
+#About_Me{
+    text-align: center;
+}
+#My_Name{
+    margin: auto;
+}
+#Left_Block{
+
 }
