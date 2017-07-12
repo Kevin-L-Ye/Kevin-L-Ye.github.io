@@ -1,19 +1,18 @@
-﻿body {
-    /* background-image: url("cork-wallet.png"); */
-}
+﻿/* COLOR PALLETE: LIGHT BLUE #FFFFFA 
+     AQUAMARINE #0D5C63 
+     #44A1A0 
+     #78CDD7 
+     #247B7B */
 nav{
     text-align: right;
 
-}
-
-* {
-    border: 1px solid black;
 }
 
 #Summary_and_image{
     display: flex;
 }
 #Summary{
+    display: inline-block;
     width: 66%;
 }
 #Personal_Image {
@@ -33,6 +32,13 @@ nav{
 #My_Name{
     margin: auto;
 }
-#Left_Block{
-
+#Left_Block {
+    display: inline-block;
+    background-color: lightseagreen;
+    width: 15%;
+}
+#Center_Block{
+    display: inline-block;
+    width: 84%;
+    margin-left: -3px;
 }

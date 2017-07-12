@@ -6,44 +6,56 @@
     <meta charset="UTF-8">
     <meta name="description" content="Kevin Ye Personal Website">
     <link rel="stylesheet" href="PersonalWebsiteCSS.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div id="Header">
+    <div class="container header">
         <nav>
             <a href="https://www.linkedin.com/in/kevin-ye-35913a78/">My LinkedIn</a> |
             <a href="https://github.com/Kevin-L-Ye">My GitHub</a>
         </nav>
-        <div id="About_Me">
+        <div class="container" id="About_Me">
             <h1 id="My_Name"> <em> Kevin Ye</em></h1>
+            <h2>Junior Software Developer</h2>
         </div>
     </div>
-    <div id="Left Block">
+    <div class="col-sm-3" id="Left_Block">
+        Why when I minimize the browser is this going below the actual project?
+        Seriously.
     </div>
 
-    <div id="Center Block">
-
+    <div class="col-sm-9" id="Center_Block">
         <div id="Summary_and_image">
             <div id="Summary">
-                Hello!  My name is Kevin Ye, and I am an inspiring junior developer, currently studying at Tech Elevator in Cleveland, Ohio. <br />
-                My previous experience includes a Bachelor's Degree in Chemical Engineering from Case Western Reserve University, as well as a background in sales. <br />
-                Highlights of my past work include <br />
+                <h2>About Me </h2>
+                Hello!  My name is Kevin Ye, and I am an inspiring junior developer, currently studying at Tech Elevator in Cleveland, Ohio.
+                My previous experience includes a Bachelor's Degree in Chemical Engineering from Case Western Reserve University, as well as a background in sales.
+                Highlights of my past work include two internships at an adhesive company called MACtac, and business to business sales at a company called
+                Shin-Etsu Silicones of America.
 
-                My time working has given me a newfound appreciate for the work that software developers do, and I'm looking to transition my career in a new direction. <br />
-                I'm looking to join a group that shares my passion for learning and enjoyment of problem-solving! <br />
+                My time working has given me a newfound appreciate for the work that software developers do, and I'm looking to transition my career in a new direction.
+                I'm looking to join a group that shares my passion for learning and enjoyment of problem-solving!
             </div>
-            <div id="Personal_Image">
-                Test Test Test Test Test Test Test Test Test Test Test Test Test Test
+            <div class="container hidden-xs" id="Personal_Image">
+                <div class="container">
+                    <img src="~/images/Kevin Ye Image.jpg" alt="Kevin Ye Image" />
+                </div>
             </div>
         </div>
 
         <hr />
-        <div id="My Projects">
-
+        <div class="container-fluid" id="Sidebar">
+            So, is this working?
         </div>
 
     </div>
 
 </body>
-
 </html>
